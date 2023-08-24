@@ -1,0 +1,402 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform:uppercase;
+}
+
+.navbar {
+    background-color:rgb(123, 189, 165);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.nav-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px ;
+    transition: background-color 0.3s ease;
+}
+
+/* Change color of clicked link */
+.nav-link:hover {
+    background-color: black;
+}
+
+.Logo_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Text{
+    text-align: center;
+}
+
+.Img img{
+   width: 375px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.About_us_text{
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.footer-nav {
+    margin-bottom: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icon_Facebook {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon_Instagram {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon_YouTube {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon_Facebook:hover {
+    color: #3b5998; /* Change to your desired hover color */
+}
+
+.social-icon_Instagram:hover {
+    color: #cd486b ; /* Change to your desired hover color */
+}
+
+.social-icon_YouTube :hover {
+    color: #c4302b ; /* Change to your desired hover color */
+}
+
+.Phone_number{
+    margin-top: 15px;
+}
+
+.address {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/*For Ipad*/
+@media (min-width: 768px) {
+
+    
+    .navbar {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .nav-link {
+        font-size: 25px;
+    }
+
+    
+.Img img{
+    width: 821px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .About_us_text{
+     text-align: center;
+ }
+ 
+        .footer {
+            width: 100%;
+            margin-top: 10px;
+        }
+           
+        .social-icon_Facebook {
+            color: #fff;
+            font-size: 32px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .social-icon_Instagram {
+            color: #fff;
+            font-size: 32px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .social-icon_YouTube {
+            color: #fff;
+            font-size: 32px;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+    }
+    
+    /*For laptop S*/
+    
+    @media (min-width: 1000px) {
+    
+        
+            
+            .footer {
+                width: 100%;
+                margin-top: 10px;
+            }
+               
+            .social-icon_Facebook {
+                color: #fff;
+                font-size: 32px;
+                margin: 0 10px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+            
+            .social-icon_Instagram {
+                color: #fff;
+                font-size: 32px;
+                margin: 0 10px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+            
+            .social-icon_YouTube {
+                color: #fff;
+                font-size: 32px;
+                margin: 0 10px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
+        }
+        
+    
+    /*For laptop L*/
+    
+    @media (min-width: 1024px) {
+    
+        .navbar {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .nav-link {
+            font-size: 25px;
+        }
+    
+    
+.Img img{
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .About_us_text{
+     text-align: center;
+ }
+ 
+        
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 984px;
+    }
+    
+    .footer-nav {
+        margin-bottom: 20px;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .nav-list li {
+        margin: 0 10px;
+    }
+    
+    .nav-list a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-list a:hover {
+        color: #7fc39f; /* Change to your desired hover color */
+    }
+    
+    
+    .social-icons {
+        margin-bottom: 10px;
+    }
+    
+    .social-icon_Facebook {
+        color: #fff;
+        font-size: 32px;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .social-icon_Instagram {
+        color: #fff;
+        font-size: 32px;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .social-icon_YouTube {
+        color: #fff;
+        font-size: 32px;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .social-icon_Facebook:hover {
+        color: #3b5998; /* Change to your desired hover color */
+    }
+    
+    .social-icon_Instagram:hover {
+        color: #cd486b ; /* Change to your desired hover color */
+    }
+    
+    .social-icon_YouTube :hover {
+        color: #c4302b ; /* Change to your desired hover color */
+    }
+    
+    .Phone_number{
+        margin-top: 30px;
+    }
+    
+    .address {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    }
+    
+    
+    /*For laptop*/
+    
+    @media (min-width: 1285px) {
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 1246px;
+        }
+        
+        
+        
+        }
+    
+    
+    /*For laptop E-L*/
+    
+    @media (min-width: 1440px) {
+        
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 1479px;
+    }
+    
+    .Img img{
+        width: 1000px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     
+     .About_us_text{
+         text-align: center;
+     }
+     
+    
+    }
+    
+    /*For pc*/
+    @media (min-width: 2560px) {
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 2520px;
+        }
+        
+        
+        }
+    
